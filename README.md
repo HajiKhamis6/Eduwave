@@ -546,8 +546,8 @@
                 </div>
                 <div class="contact-buttons">
                     <!-- NEW O.C. button inside contact panel - opens required link -->
-                    <a href="https://hajikhamis6.github.io/Ramadhan/" target="_blank" style="text-decoration: none; width: 100%;" id="ocLiveLink">
-                        <button class="oc-contact-btn" id="ocDemoBtn"><i class="fas fa-rocket"></i> Open O.C. app</button>
+                    <a href="https://jeithirdtrade.github.io/Ramadhan/" target="_blank" style="text-decoration: none; width: 100%;" id="ocLiveLink">
+                        <button class="oc-contact-btn" id="ocDemoBtn"><i class="fas fa-rocket"></i> Open Ramadhan</button>
                     </a>
                     <!-- WhatsApp live chat – real group invite with tracking -->
                     <a href="https://chat.whatsapp.com/Lwfe2Dx4BiuDoXjQYmYhP8?mode=gi_t" target="_blank" style="text-decoration: none; width: 100%;" id="whatsappLiveLink">
@@ -579,8 +579,8 @@
                         <i class="fab fa-github" id="githubLive" role="button" tabindex="0" title="GitHub (live)"></i>
                     </div>
                     <div style="margin-top:16px; display: flex; flex-direction: column; gap: 8px;">
-                        <a href="https://hajikhamis6.github.io/Ramadhan/" target="_blank" class="phone-footer-link" style="background:#9b6d3c; color:white; border:none;" id="footerOCLink">
-                            <i class="fas fa-external-link-alt"></i> O.C. app
+                        <a href="https://jeithirdtrade.github.io/Ramadhan/" target="_blank" class="phone-footer-link" style="background:#9b6d3c; color:white; border:none;" id="footerOCLink">
+                            <i class="fas fa-external-link-alt"></i> Ramadhan
                         </a>
                         <a href="https://chat.whatsapp.com/Lwfe2Dx4BiuDoXjQYmYhP8?mode=gi_t" target="_blank" class="phone-footer-link" style="background:#25D366; color:#111; border:none;">
                             <i class="fab fa-whatsapp"></i> WhatsApp group
@@ -690,7 +690,7 @@
             // ---------- NEW O.C. BUTTON FUNCTIONALITY ----------
             // Header O.C. button
             document.getElementById('ocHeaderBtn').addEventListener('click', function() {
-                window.open('https://hajikhamis6.github.io/Ramadhan/', '_blank');
+                window.open('https://jeithirdtrade.github.io/Ramadhan/      ', '_blank');
                 messageSpan.innerText = `Opening O.C. app for ${studentInput.value.trim() || 'you'} ...`;
                 msgBox.classList.add('highlight-green');
                 setTimeout(() => msgBox.classList.remove('highlight-green'), 1000);
