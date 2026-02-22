@@ -166,11 +166,12 @@
             flex: 0 0 auto;
         }
         
-        /* --- INCREASED RATIO: DRIVE IMAGE TAKES MORE SPACE --- */
+        /* --- UPDATED HERO IMAGE WITH NEW LINK --- */
         .hero-image {
-            min-height: 360px;          /* ⬆ significantly taller – more presence */
+            min-height: 360px;          /* significantly taller – more presence */
             width: 100%;
-            background: url('https://drive.google.com/thumbnail?id=1y3DvNgy99GRd2WjSLXcJVkNwT4IHEbMX&sz=w1000') no-repeat center center;
+            /* NEW GOOGLE DRIVE IMAGE (the file ID from the provided link) */
+            background: url('https://drive.google.com/thumbnail?id=1U30ICnZNoPscvJY7_xA78aAYislfZlth&sz=w1200') no-repeat center center;
             background-size: contain;    
             background-position: center;
             border-radius: 32px;         
@@ -533,8 +534,8 @@
                     <div class="stat-item"><h3>4.8</h3><p>rating</p></div>
                 </div>
             </div>
-            <!-- INCREASED RATIO: now the Drive image is significantly larger (min-height boosted) -->
-            <div class="hero-image" title="Learning never stops — image from drive (now bigger)"></div>
+            <!-- HERO IMAGE UPDATED: new Google Drive file ID inserted (link provided) -->
+            <div class="hero-image" title="Learning never stops — fresh image from drive"></div>
         </div>
     </section>
 
